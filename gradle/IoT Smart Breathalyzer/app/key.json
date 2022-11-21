@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "alcoholimetro-inteligente",
+  "private_key_id": "5bc2026b02fe62fa650cff8894364ba1eab19c6a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDF6EXOLtxNvJLL\nSWdDzAjKIq8kOYBJ0eDd/i6EqJcpf4PVVh18QotpcNiD2Z7u1LIVOdRFGNCuZ3cG\nNoEh8yUq30lupKMBhBDPRn/wMr1s1hWKc8ACRDhqa57w+JYuSZ80t9xofdbv5R24\nEcnXc6RNu2ikg6l71DznRCARbkVMn3p4VuZHZ5VC1lmqMWTF50OQ9GCXHSE+MlfR\nLeXbBoGHcg0fZ2Dgu5FkScgECYUq3/dFhFFt3USuhNXb++Y2HR5u2pmfP5QKuUyM\n7WYdiaSW8QXqOP58e9/NwkvZYdhvj3H6eaetb7Z8IrTqzDbHh/IgXSGB8ctsAJcE\njaVsyksvAgMBAAECggEATOsXQmkNH7uEdDUtyPhijCmJ17LvjQFg+/bgHpgl1C+m\nzgI/yH1WkN8Wj7xDnMCXDE/jFA3ugXJeHNCPROIrFmwdLr8XSa4KGH1mmTUnUUct\nrReKz3azVI1Kg46iVBAyK/uv0v7hzHBIqjNjtvTPrZSCubogY6vcFehw7EVm8r2z\noZlHMKFTzaZIA+lKUGvobu6QHuZE6XPYPrQP+kbxtj0ToS3rFwtAtvYiuG0kVdqR\nCOuwhvGZ2DWY5eugQ5Gs8FLqXLHby/mPs4QLmylgTbpM71gy5u4NIXGwLDj0RSto\nc1j47rvkdDZRSZh05sdb0gDOO5Oaa3GTIXKmcYUDzQKBgQDx0tQZ2OqJAcwXfONK\n25q7+4H4+9fDCF93ZczNS/XBrLmWU9xd3DWY6/9EeT7d9wNx26JtlkAWynGkFP18\ndoTuax1d9PZ7uqUHRcDXETV8xewgb9bFigZ85ajOeJJX3tX1zWNM4ksR6h4eVydH\n0re+Ao63gXvdNpRVYJ0bkD521QKBgQDRgl7VzK5cbocNouW0eAnGqC+dKm5ABspC\n7GTQElSBMCBaEX5gK65zgVz0X3XikMs7AA3OU/JhCNcRCa2kC0j2/k7yl5/pLEAx\nv81VpyqG5Ian9nw7BCXWIUsgtDFdDkxPlGgeBXuTzNcpAKn/tosKWSC4R+k0Q84c\nomi7oS8D8wKBgQCuS4rcZmAFB+qWM0mPtuC8BPcVAk/tHqfQYutOPSWQxnGtTBxU\n+lcXNWHzdIA/c75j3i4gVl8zDg8CeK6LetEtFr8/7UOKwmgX6cqoOJsYp38dkf52\nupkahF07E+RGuTH1zGd6DtCUxO2YaLDDL7mHlkhPM2CXfLNFJjGWoEylUQKBgQC2\nTr+/Q3CmNfeHQiyoMZwwJcHo/Tcat83hFltTQ+AM2pgMSBS0Es6m6/a7HyYxlNWD\n7bQVyq6rCUo8JTPX/4nqg7inGJGqETt7Du/ajLBQ2SLjnXTU1fMmtanuN16NHxgA\nV5+SICs8nY7MuysyvOGYi54RPWIMfMQp3plMTCHhSQKBgQDP4te/gBuNhb5X03lO\n1pgrwUUXwvXhZylXwiKX4PXNroVPSuk07TAvRmkq/SnrwXUEPCV6VTd5o6olGsKH\nfg0KNDZXhILSpGICRZfc30n8hkLt+T7MJ43JS6QsfZ/muiI3viRHNmwVnoz4oyvL\n8Ff68vU+XkL0bhV5OvwEl2x4WQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-feeje@alcoholimetro-inteligente.iam.gserviceaccount.com",
+  "client_id": "104987532877895216270",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-feeje%40alcoholimetro-inteligente.iam.gserviceaccount.com"
+}
