@@ -31,9 +31,16 @@ double valueTemperatureObjective;
 
 void sendDataBlynk()
 {
-  double valueArcohol = analogRead(alcohol) - calibration_alcohol;
+  double valueArcohol = analogRead(alcohol);
+  Serial.println(valueArcohol);
   double valueTemperatureAmbiente = mlx.readAmbientTempC();
   double valueTemperatureObjective = mlx.readObjectTempC() + calibration_temperature;
+
+  if (valueArcohol < calibration_alcohol) {
+    valueArcohol = 0;
+  } else {
+    valueArcohol = map(valueArcohol, calibration_alcohol, 750.0, 0.0, 1024.0);
+  }
   Blynk.virtualWrite(V0, valueArcohol);
   Blynk.virtualWrite(V1, valueTemperatureObjective);
   Serial.println("Send data at Blynk");
@@ -85,9 +92,16 @@ void loop()
         Blynk.run();
         timer.run();
     } else {
-        double valueArcohol = analogRead(alcohol) - calibration_alcohol;
+        double valueArcohol = analogRead(alcohol);
+        Serial.println(valueArcohol);
         double valueTemperatureAmbiente = mlx.readAmbientTempC();
         double valueTemperatureObjective = mlx.readObjectTempC() + calibration_temperature;
+
+        if (valueArcohol < calibration_alcohol) {
+          valueArcohol = 0;
+        } else {
+          valueArcohol = map(valueArcohol, calibration_alcohol, 750.0, 0.0, 1024.0);
+        }
 
         if (digitalRead(button) == HIGH) {
             Serial.println("Push on ON");
